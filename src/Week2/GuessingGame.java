@@ -32,7 +32,7 @@ public class GuessingGame {
 
 
     /**
-     * Cqlcuqlts q prime number ....
+     * Calculates a prime number ....
      * @param getal
      * @return True if input is pri;e
      */
