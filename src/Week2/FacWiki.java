@@ -11,6 +11,7 @@ public class FacWiki {
 
         if (getal == 0) {
             System.out.println("1");
+
         } else {
 
             do {
