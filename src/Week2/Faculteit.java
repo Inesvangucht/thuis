@@ -5,8 +5,8 @@ public class Faculteit {
         /** bereken faculteit: bijvoorbeeld: "5! = 5*4*3*2*1 = 120" Input voorbeeld: "5", output "120"
          */
 
-        int getal = 5;
-        int uitkomst = getal;
+        long getal = 5;
+        long uitkomst = getal;
 
 
         // 5 * 4 * 3 * 2 * 1
