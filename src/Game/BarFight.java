@@ -36,11 +36,11 @@ public class BarFight {
         }
 
         if (billy.knockedOut()) {
-            System.out.println("Billy is KO. Willy won the barfight. He should be very proud of himself.");
+            System.out.println("Billy is KO. Willy won the bar fight. He should be very proud of himself.");
         }
 
         if (willy.knockedOut()) {
-            System.out.println("Willy is KO. Billy won the barfight. He should be very proud of himself.");
+            System.out.println("Willy is KO. Billy won the bar fight. He should be very proud of himself.");
             }
 
 
