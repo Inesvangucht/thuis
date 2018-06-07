@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class NumberGuess {
 
     // random nummer tussen 0 en 10, de user heeft drie kansen om het te raden
-
     public static void main(String[] args) {
 
         // programma bepaalt random nummer.

@@ -21,7 +21,7 @@ public class Drunk {
 
     /**
      * Als de speler een biertje drinkt heeft hij de volgende beurt een flesje dat hij kan gooien.
-     * drinkBeer method is dus enkel mogelijk
+     * drinkBeer method is dus enkel mogelijk met.
      */
     int weapon = -1;                    //all drunks start without a bottle
     int strength = 10*drunkLevel;
@@ -29,7 +29,7 @@ public class Drunk {
 
     public Drunk (String name){
         this.name = name;
-        this.health = 100;
+        this.health = 60;
         this.drunkLevel = 20;
         this.weapon = -1;
     }
@@ -43,7 +43,7 @@ public class Drunk {
 
             this.drunkLevel += 10;
             this.weapon = weapon * -1;
-            System.out.println(this.name + " orders a beer, drinks the bottle in one time. He holds the empty bottle in his hand.");
+            System.out.println(this.name + " orders a beer, drinks the bottle in one go. He holds the empty bottle in his hand.");
         } else {
             this.drunkLevel += 10;
             System.out.println(this.name + "orders a beer and drinks the bottle in one time. Can't carry any more bottles \n");
@@ -51,6 +51,7 @@ public class Drunk {
     }
 
     public void randomCommand() {
+        int random = (int)Math.random() * 3;
     }
 
     /**
@@ -88,7 +89,7 @@ public class Drunk {
      */
 
     public void checkStats() {
-        System.out.println("Health is " +health);
+        System.out.println("Health is " + this.health);
         System.out.println(this.name + "is drunk" + drunkLevel);
         this.checkDrunk();
 

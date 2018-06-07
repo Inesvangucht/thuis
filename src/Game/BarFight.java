@@ -33,21 +33,22 @@ public class BarFight {
 
             billy.punch(willy);
 
+
         }
 
         if (billy.knockedOut()) {
             System.out.println("Billy is KO. Willy won the bar fight. He should be very proud of himself.");
         }
 
-        if (willy.knockedOut()) {
+         else if (willy.knockedOut()) {
             System.out.println("Willy is KO. Billy won the bar fight. He should be very proud of himself.");
             }
 
 
-        if (willy.passedOut()) {
+        else if (willy.passedOut()) {
             System.out.println("Willy had one to many. He passed out on the floor. Kinda sad. Billy won!");
         }
-        if (billy.passedOut()) {
+        else if (billy.passedOut()) {
             System.out.println("Billy had one to many. He passed out on the floor. Kinda sad. Willy won!");
         }
 
