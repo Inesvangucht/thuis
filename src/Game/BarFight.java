@@ -28,7 +28,7 @@ public class BarFight {
 
 
             } else {
-                System.out.println("Sober up, this is not a valid command.4");
+                System.out.println("Sober up, this is not a valid command.");
             }
 
             billy.punch(willy);
